@@ -9,7 +9,7 @@ const Card = ({meal}) => {
             <h2 className='text-lg font-semibold text-gray-800'>{meal.strMeal}</h2>
             <p className='mt-2 text-sm text-gray-600'>{meal.strInstructions.slice(0, 100)}...</p>
 
-            <a href="#" className='block mt-4 text-blue-500 hover:underline'>Learn More</a>
+            <a href="https://www.themealdb.com/api/json/v1/1/search.php?s=" className='block mt-4 text-blue-500 hover:underline'>Learn More</a>
         </div>
     </div>
   )
